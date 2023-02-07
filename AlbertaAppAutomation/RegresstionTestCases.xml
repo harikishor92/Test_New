@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.alberta.qa.testcases.LoginPageTest" />
+			<class name="com.alberta.qa.testcases.DashBoardPageTest" />
+			<class name="com.alberta.qa.testcases.VendorPageTest" />
+			<class name="com.alberta.qa.testcases.DeptPageTest" />
+			<class name="com.alberta.qa.testcases.CategoryPageTest" />
+			<class name="com.alberta.qa.testcases.SubCategoryPageTest" />
+			<class name="com.alberta.qa.testcases.Products_ItemsPageTest" />
+			<class name="com.alberta.qa.testcases.ReceivingOrderPageTest" />
+			<class name="com.alberta.qa.testcases.PurchaseOrderPageTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,27 @@
+package com.alberta.qa.Pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.alberta.qa.Base.BaseTest;
+
+public class UnitPage extends BaseTest{
+	
+	@FindBy(xpath = "//button[contains(@onclick,'addUnit();')]")
+	private WebElement addNew;
+	
+	public UnitPage()
+	{
+		PageFactory.initElements(driver, this);
+	}
+	
+	public void createUnit() throws InterruptedException
+	{
+		addNew.click();
+		Thread.sleep(1000);
+	}
+	
+	
+
+}

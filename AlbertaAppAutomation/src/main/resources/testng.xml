@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CapabilityAppsAutomation">
+
+	<!-- <listeners>
+		<listener class-name="com.capability.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners> -->
+
+	<test thread-count="5" name="CapabilityAppsTestReport">
+		<classes>
+			<class name="com.capability.qa.testcases.WelcomePageTest" />
+			<class name="com.capability.qa.testcases.LoginPageTest" />
+			<class name="com.capability.qa.testcases.DashBoardPageTest" />
+			<class name="com.capability.qa.testcases.JavaTopicPageTest" />
+			<class name="com.capability.qa.testcases.AddQuestionsPageTest" />
+			<class name="com.capability.qa.testcases.EditQuestionsPageTest" />
+		</classes>
+	</test> <!-- CapabilityAppsTestReport -->
+</suite> <!-- CapabilityAppsAutomation -->
